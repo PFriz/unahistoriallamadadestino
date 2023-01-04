@@ -278,7 +278,7 @@ h6 {
   background-color: #0563bb;
 }
 
-
+/*falling conf*/
 .fall {
   position: absolute;
   top: 0px;
@@ -384,6 +384,10 @@ h6 {
     opacity: 0px;
   }
 }
+/*
+  falling config end
+*/
+
 /*--------------------------------------------------------------
 # home Section
 --------------------------------------------------------------*/
@@ -512,6 +516,26 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+}
+.section-title div {
+  position: sticky;
+  /* left: calc(25% - 80px); */
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+.div-center {
+  position: sticky;
+  /* left: calc(25% - 80px); */
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 0; */
+}
+
+.col-lg-8.div-center {}
+
+.height-50 {
+    height: 50vh;
 }
 
 /*--------------------------------------------------------------
