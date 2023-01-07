@@ -1357,3 +1357,32 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.container-lib .row .col-4{
+  font-weight: bold;
+  align-items: center;
+  display: grid;
+  text-align:right;
+}
+.container-lib .row .col-8 .row .col-2{
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  
+}
+
+.container-lib .row {
+  padding: 10px 0 0 0;
+}
+
+.btn-circle{
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  padding: 12px;
+}
+
+.italic-subtitle{
+  font-style: italic;
+  font-size:1rem!important;
+  
+}
